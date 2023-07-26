@@ -1,0 +1,118 @@
+/* NetFlix BG */
+.netflix{
+    height: 720px;
+    background-image: url('imgs/netflix-image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img-effect{
+    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* NavBar */
+
+.nav-items{
+    position: relative;
+    z-index: 100;
+   
+}
+
+.navbar{
+   display: inline-block;
+}
+
+.sign-in{
+    vertical-align:top;
+    margin-left: 1530px;
+    margin-top: 23px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.netflix-icon{
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+    padding-left: 60px;
+    
+}
+
+.netflix-intro{
+    
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 70px 0;
+    position: relative;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.netflix-intro p{
+    text-align: center;
+    width: 650px;
+    color: white;
+}
+#top{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom:0 ;
+}
+#mid{
+    font-size:25px ;
+    margin-bottom: 10px
+}
+#bot{
+    font-size:18px;
+    font-weight: 500;
+}
+
+.Email input{
+        border: 1px solid grey;
+        width: 400px;
+        height: 60px;
+        position: relative;
+        outline:none;
+     
+}
+
+.get-started{
+    height: 64px;
+    vertical-align: bottom;
+    border: 1px solid transparent;
+    background-color:#e50914;
+    color: white;
+    font-size: 25px;
+    margin-left: -5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.get-started:hover{
+    filter: brightness(1.1);
+}
+
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding-left: 5px;
+}

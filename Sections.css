@@ -1,0 +1,25 @@
+.first-section{
+    margin-top: 7px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+   padding: 5px 45px ;
+}
+
+
+.flex{
+    margin-left: 400px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pic-vid{
+    position: relative;
+}
+.video{
+position: absolute;
+z-index: .5;
+right: 350px;
+bottom: -140px;
+}
